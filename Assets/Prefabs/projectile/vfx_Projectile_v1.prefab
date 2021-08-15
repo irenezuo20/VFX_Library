@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244573375}
   - component: {fileID: 1244573376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 4038328030128448632}
   - component: {fileID: 4038328030128448638}
   - component: {fileID: 4038328030128448633}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PrpjectileOut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4960,7 +4960,7 @@ GameObject:
   - component: {fileID: 4038328030892845337}
   - component: {fileID: 4038328030892845343}
   - component: {fileID: 4038328030892845342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PrpjectileIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9772,7 +9772,7 @@ GameObject:
   - component: {fileID: 4038328031005800551}
   - component: {fileID: 4038328031005800549}
   - component: {fileID: 4038328031005800548}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14527,7 +14527,7 @@ GameObject:
   - component: {fileID: 5986959835010716192}
   - component: {fileID: 1991224068497851999}
   - component: {fileID: 7935292909748789549}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: vfx_Projectile_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14542,7 +14542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4038328031373213048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4038328030128448632}
@@ -14597,7 +14597,8 @@ MonoBehaviour:
   accuracy: 100
   fireRate: 1
   muzzlePrefab: {fileID: 0}
-  hitPrefab: {fileID: 0}
+  hitPrefab: {fileID: 2140903329934511096, guid: 9d799d4dbef25431cab7151acb040131,
+    type: 3}
   shotSFX: {fileID: 0}
   hitSFX: {fileID: 0}
   trails:
