@@ -3236,10 +3236,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 206224373, guid: 43a646660e4aa4cc3a523db726998b30, type: 3}
-      propertyPath: m_Name
-      value: ElectricCircle
-      objectReference: {fileID: 0}
     - target: {fileID: 68092559680892888, guid: 43a646660e4aa4cc3a523db726998b30,
         type: 3}
       propertyPath: m_Name
